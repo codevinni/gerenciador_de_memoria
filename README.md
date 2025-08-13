@@ -33,7 +33,8 @@ gcc gm.c -o gm
 ./gm t1 t2 ...
 ```
 
-> **Importante:** não inclua a extensão `.tsk` ao passar os nomes dos arquivos. O programa a adiciona automaticamente.
+> **Importante:** não inclua a extensão `.tsk` ao passar os nomes dos arquivos, o programa a adiciona automaticamente.
+> Além disso, presume-se que estes arquivos estão no diretório [`samples/`](./samples/).
 
 ---
 
@@ -117,7 +118,7 @@ vetor1[99]
 
 ## 📎 Amostras de Entrada
 
-Os arquivos `.tsk` de exemplo estão na pasta [`sample/`](./sample/), com tarefas prontas para teste.
+Os arquivos `.tsk` de exemplo estão na pasta [`samples/`](./samples/), com tarefas prontas para teste.
 
 ---
 
@@ -130,4 +131,5 @@ Projeto desenvolvido por Vinícius Daniel da Silva.
 ## 📄 Licença
 
 Este projeto é apenas para fins educacionais.
+
 
