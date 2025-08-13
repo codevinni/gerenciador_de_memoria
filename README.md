@@ -10,7 +10,7 @@ Este projeto simula um sistema básico de gerenciamento de memória com paginaç
 ```
 ├── gm.c              # Implementação principal do simulador
 ├── gm.h              # Definições e estruturas de dados
-└── sample/           # Arquivos de teste 
+└── samples/           # Arquivos de teste 
     ├── t1.tsk        
     └── t2.tsk        
 ```
@@ -131,5 +131,6 @@ Projeto desenvolvido por Vinícius Daniel da Silva.
 ## 📄 Licença
 
 Este projeto é apenas para fins educacionais.
+
 
 
