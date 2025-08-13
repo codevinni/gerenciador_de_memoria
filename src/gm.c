@@ -207,7 +207,7 @@ int substituirCaractere(char* string, char character, char replacement){
 int processarTarefa(const char* nomeTarefa, int* paginasLivres, int* numeroPaginasLivres){
     
     Name nomeArquivo;
-    snprintf(nomeArquivo, NAME_LEN, "%s.tsk", nomeTarefa);
+    snprintf(nomeArquivo, NAME_LEN, "../samples/%s.tsk", nomeTarefa);
 
     FILE *arquivo = fopen(nomeArquivo, "r");
     if(!arquivo){
